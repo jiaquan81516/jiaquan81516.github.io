@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JQ Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#curriculum" class="nav__link">My Curriculum</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Jia Quan</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">my profile;)</p>
+            <img src="photoatparty.jpg" alt="a picture of me!" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do/Learn</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Python Coding Services</h3>
+                    <p>Looking to gain experience, I provide coding services on online platforms and since I'm still quite new to the coding world, I will quote a reasonable price! 
+                        This also helps me to get by as I am struggling to pay for my drivers license!</p>
+                    <p>ps: I'm also planning to start teaching level 1 Python one day:)</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Data Analytics</h3>
+                    <p>I have gained some Data Analytics skills from my course of study using softwares such as Tableau and Knime Analytics.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Hardware/Software Skills</h3>
+                    <p>Throughout my course of study, I have gained hardware skills such as soldering, circuit patching (on the building side) 
+                        and software skills (eg. programming the hardware). I am still in the process of learning but I am always eager to learn more!</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+            <a href="resume/Jia Quan's Resume (2022).pdf" class="btn" target="blank">My Resume</a>
+
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Penultimate Electronics Student in Temasek Polytechnic</p>
+           
+           <div class="about-me__body">
+               <p>My name is Jia Quan, or you can call me JQ in short. I'm currently a year 3 Electronics student in Temasek Polytechnic. As an curious minded person, 
+                I have always been interested to learn more about how things work. However, after studying Electronics for a couple of years and taking a few modules which touches on the software (eg. Python, Data Analytics), 
+                I noticed that my interest in software was growing far more and I started being so facinated and curious by how digitalisation is changing the world rapidly, which makes me want to be a part of the process!.
+                </p>
+               <p>My current goal is to work towards a degree in Computer Science and make changes in my community with the skills I’ve obtained And my ultimate goal would be to pursue a career in the IT sector!
+                Getting hold of these skills are challenging but I am always keen to learn whenever given the opportunity especially in the industry!Aside from my career goals, my active hobbies are hitting the gym, hiking, cycling or anything to do with outdoors! I also play the piano once in awhile and embark on mini Python 
+                projects on Data Analytics to gain more knowledge.</p>
+           </div>
+           
+           <img src="me.jpg" alt="" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item1.html" class="portfolio__item">
+                    <img src="mobilerobot.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item2.html" class="portfolio__item">
+                    <img src="mcapp.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item3.html" class="portfolio__item">
+                    <img src="python.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item4.html" class="portfolio__item">
+                    <img src="bluesg1.PNG" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        <!-- My Curriculum-->
+        <section class="my-curriculum" id="curriculum">
+            <h2 class="section__title section__title--curriculum">Curriculum!</h2>
+            <p class="section__subtitle section__subtitle--curriculum">Leadership and Volunteering Experiences</p>
+            
+            <div class="curriculum">
+                <!-- Curriculum item 01 -->
+                <a href="yoldenswitch.html" class="curriculum__item">
+                    <img src="curriculum1.PNG" alt="" class="curriculum__img">
+                </a>
+                
+                <!-- Curriculum item 02 -->
+                <a href="tpfitness.html" class="curriculum__item">
+                    <img src="tpflogo.PNG" alt="" class="curriculum__img">
+                </a>
+                
+                <!-- Curriculum item 03 -->
+                <a href="pythonlesson.html" class="curriculum__item">
+                    <img src="curriculum2.PNG" alt="" class="curriculum__img">
+                </a>
+                
+                <!-- Curriculum item 04 -->
+                <a href="PA.html" class="curriculum__item">
+                    <img src="curriculum3.png" alt="" class="curriculum__img">
+                </a>
+
+                
+                
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:jiaquan81516@gmail.com" class="footer__link">jiaquan81516@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/foo-jia-quan-907525227" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>

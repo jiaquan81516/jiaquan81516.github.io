@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JQ Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+           
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="index.html#curriculum" class="nav__link">My Curriculum</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                <strong>Blood Pressure Monitor</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Embedded Systems Programming</p>
+            <img src="mcapp.png" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>This was a Microcontroller project done in year 2. A blood pressure monitor which includes display, alert, display records, low-power mode. Using C++, My group made use of ADC, Interrupts, PWM, and Timers. 
+                Personally, this was the toughest module that I have faced mainly because I am not as proficient in C++ and it took me really long to understand the hardware commands as well.
+                Thankfully, with the support of my peers and the lecturer, this project was made possible. </p>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:jiaquan81516@gmail.com" class="footer__link">jiaquan81516@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/foo-jia-quan-907525227" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>
